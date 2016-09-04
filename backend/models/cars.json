@@ -1,0 +1,49 @@
+{
+  "cars": [
+    { 
+      "id" : 1,
+      "model": "Gol",
+      "image": "http://configuratuvw.s3.amazonaws.com/versions/images/000/000/140/original/base.png",
+      "brand": "VW",
+      "year": "2016",
+      "price": "$100,000.00 MX",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempus finibus nisi, at faucibus dolor ultricies ut. Etiam sodales neque et lorem ultrices, id congue sem efficitur. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer sagittis est et convallis imperdiet. Nulla feugiat justo id mauris iaculis, in laoreet nisl commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu mauris vestibulum, tempus arcu sed, varius diam. Donec nec arcu eget diam pharetra fringilla quis eget mi. In consequat euismod elementum. Aliquam placerat mi eu massa tincidunt ullamcorper. Suspendisse sem erat, efficitur ullamcorper purus in, posuere condimentum eros. Curabitur commodo vehicula imperdiet."
+    },
+    {
+      "id" : 2,
+      "model": "Mazda 3",
+      "image": "http://www.mazda.es/assets/master/cars/all-new-mazda3/hatchback/overview/gallery/11/mazda3-hatchback-lhd-01.png",
+      "brand": "Mazda",
+      "year": "2017",
+      "price": "$300,000.00 MX",
+      "description": "Mauris luctus tincidunt dolor, ut efficitur ligula fringilla convallis. Cras luctus, mauris rhoncus blandit faucibus, magna libero commodo ligula, eget pretium justo leo a nisi. Fusce viverra odio ac purus dapibus consectetur. Morbi quis mattis tellus. Integer augue metus, varius quis dapibus quis, pulvinar finibus ex. Nam tincidunt urna vitae dui elementum eleifend. Fusce rutrum, massa eu elementum venenatis, magna sem ullamcorper dui, viverra varius urna massa et purus. Pellentesque condimentum dapibus imperdiet. Fusce id maximus odio. Nunc non quam tortor. Vestibulum leo nisi, tincidunt eu blandit ac, laoreet ut augue. Duis vulputate velit ac erat pellentesque placerat. Duis pretium porttitor mauris, semper lobortis turpis pellentesque quis. In nec risus eget massa dictum efficitur eu sit amet nibh."
+    },
+    {
+      "id" : 3,
+      "model": "Jetta",
+      "image": "http://www.vw.com.mx/content/medialib/vwd4/mx_mexico_/modelos/modelos-2015/jetta/colores/marron-toffee/_jcr_content/renditions/rendition.file/img_vw_jetta_tdi_marro-ntoffee.jpg",
+      "brand": "VW",
+      "year": "2015",
+      "price": "$240,000.00 MX",
+      "description": "Cras finibus tempor nisi eget efficitur. Cras faucibus metus quis lorem egestas suscipit. Nulla facilisis viverra nisl, sit amet aliquet nunc vulputate in. Nullam justo nunc, interdum ut mi quis, pulvinar hendrerit mi. Sed commodo mauris ex, sit amet porttitor ligula varius sit amet. Sed quis eros consectetur, laoreet leo non, euismod sapien. Curabitur porta tellus sit amet posuere ultrices. Mauris tincidunt turpis sem, at imperdiet lacus auctor sit amet"
+    },
+    {
+      "id" : 4,
+      "model": "A4",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Audi_A4_B9_Limousine_3.0_TDI_quattro.JPG",
+      "brand": "Audi",
+      "year": "2016",
+      "price": "$460,000.00 MX",
+      "description": "Duis efficitur tincidunt tortor, id ullamcorper sem. Donec felis sapien, rhoncus at vulputate sed, sollicitudin eu tellus. Cras ut metus enim. In magna lorem, gravida vel ex sit amet, rhoncus cursus eros. Proin consectetur vulputate tortor posuere ullamcorper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed elementum faucibus ligula. Nulla blandit efficitur neque. Quisque lacinia ipsum arcu, eu tempus massa venenatis aliquam. Etiam in risus enim. Etiam in ultrices magna, eu pretium justo. Etiam ultricies aliquet purus ut efficitur. Nunc ullamcorper semper auctor."
+    },
+    {
+      "id" : 5,
+      "model": "301",
+      "image": "http://www.peugeot.cl/media/showrooms/showroom-peugeot-301-sedan-kppv3/medias/Assets301/HEADING/EXTERIOR/Peugeot-301-Design-1-960x460-1.jpg",
+      "brand": "Peugeot",
+      "year": "2013",
+      "price": "$132,000.00 MX",
+      "description": "Sed rutrum orci a libero fringilla ullamcorper. Sed a tortor libero. Nulla fermentum egestas finibus. In auctor augue eros, sit amet volutpat nisl eleifend non. Curabitur diam tellus, fringilla id aliquam sed, venenatis nec felis. Proin quis lacus ultrices, laoreet sem ac, pharetra diam. Morbi at convallis purus. In eleifend magna non nunc tempus, porttitor consequat tellus bibendum. Cras mattis erat sed elit vehicula, quis sollicitudin massa condimentum. Quisque ac ligula tempor, malesuada turpis eget, dapibus velit. Ut enim felis, tincidunt viverra urna ac, molestie malesuada dolor. Integer laoreet nisi vitae ullamcorper volutpat. Nam pellentesque mollis interdum. Duis tempus imperdiet enim quis porta. Donec elementum metus a libero mattis porta. In hac habitasse platea dictumst."
+    }
+  ]
+}

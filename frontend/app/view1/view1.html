@@ -1,0 +1,48 @@
+	<div class="row padding-20">
+		<div class="col-md-12 col-sm-12 col-xs-12 text-center">
+			<button  class="btn btn-success" type='button' ng-click="save('view2')">Compare</button>		
+		</div>
+	</div>
+	
+	<div>
+		<div class="row">
+			<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 text-right">
+				<label class="padding-right-15">Search by brand:
+				 	<input ng-model="search.brand">
+				 </label>
+			 </div>
+		</div>
+        <div ng-repeat="car in cars ">
+			<div class = "col-sm-6 col-md-3 col-lg-3 col-xs-12" ng-repeat=" value in car | filter:search | orderBy:'model' ">
+				<div>
+			      <div class = "thumbnail">
+			         <img class="img-thumbnail" ng-src = {{value.image}} alt = "{{value.model}}">
+			         <div class = "border-top">
+				         <h3 class="text-center">{{value.model}}</h3>
+				         <div class="row">
+					         <div class="col-md-6">
+					         	<strong>Brand </strong><p>{{value.brand}}</p>
+					         </div>
+					         <div class="col-md-6">
+					         	<strong>Year </strong><p>{{value.year}}</p>
+					         </div>
+					         <div class="col-md-6">
+					         	<strong>Price </strong><p>{{value.price}}</p>
+					         </div>
+				         </div>
+				         <hr/>
+				         <div class="row  padding-20 text-center">
+				         	<div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+					         	<a class="btn btn-primary" href="#!/description?id={{value.id}}"> Check </a>
+					         	<hr/>
+					         	<div class="checkbox">
+								  <label><input type="checkbox"  ng-model="selected[value.id]">Compare</label>
+								</div>
+							</div>
+				         </div>
+			      	</div>
+			      </div>
+			   </div>
+			</div>
+		</div>
+    </div>
